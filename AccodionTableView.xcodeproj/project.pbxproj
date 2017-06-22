@@ -12,6 +12,8 @@
 		18DBCB6B1EFBC129003FF70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB691EFBC129003FF70A /* Main.storyboard */; };
 		18DBCB6D1EFBC129003FF70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB6C1EFBC129003FF70A /* Assets.xcassets */; };
 		18DBCB701EFBC129003FF70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBCB6E1EFBC129003FF70A /* LaunchScreen.storyboard */; };
+		18DBCB791EFBC1FB003FF70A /* SectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBCB781EFBC1FB003FF70A /* SectionTableCell.swift */; };
+		18DBCB7B1EFBC210003FF70A /* SubSectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBCB7A1EFBC210003FF70A /* SubSectionTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		18DBCB6C1EFBC129003FF70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DBCB6F1EFBC129003FF70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBCB711EFBC129003FF70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DBCB781EFBC1FB003FF70A /* SectionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTableCell.swift; sourceTree = "<group>"; };
+		18DBCB7A1EFBC210003FF70A /* SubSectionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubSectionTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		18DBCB641EFBC129003FF70A /* AccodionTableView */ = {
 			isa = PBXGroup;
 			children = (
+				18DBCB771EFBC1D8003FF70A /* TableCells */,
 				18DBCB651EFBC129003FF70A /* AppDelegate.swift */,
 				18DBCB671EFBC129003FF70A /* ViewController.swift */,
 				18DBCB691EFBC129003FF70A /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				18DBCB711EFBC129003FF70A /* Info.plist */,
 			);
 			path = AccodionTableView;
+			sourceTree = "<group>";
+		};
+		18DBCB771EFBC1D8003FF70A /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				18DBCB781EFBC1FB003FF70A /* SectionTableCell.swift */,
+				18DBCB7A1EFBC210003FF70A /* SubSectionTableCell.swift */,
+			);
+			name = TableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			files = (
 				18DBCB681EFBC129003FF70A /* ViewController.swift in Sources */,
 				18DBCB661EFBC129003FF70A /* AppDelegate.swift in Sources */,
+				18DBCB791EFBC1FB003FF70A /* SectionTableCell.swift in Sources */,
+				18DBCB7B1EFBC210003FF70A /* SubSectionTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
